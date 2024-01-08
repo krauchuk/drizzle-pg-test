@@ -1,0 +1,21 @@
+{
+  "name": "drizzle-pg",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "db:generate": "drizzle-kit generate:pg",
+    "db:migrate": "drizzle-kit push:pg"
+  },
+  "dependencies": {
+    "drizzle-kit": "^0.20.10",
+    "drizzle-orm": "^0.29.3",
+    "next": "14.0.4",
+    "postgres": "^3.4.3",
+    "react": "^18",
+    "react-dom": "^18"
+  }
+}
